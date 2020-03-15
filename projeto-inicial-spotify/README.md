@@ -1,0 +1,4 @@
+Creditos das imagens.
+NOTA, TODAS AS IMAGENS USADAS AQUI SÃO APENAS PARA MEIOS EDUCATIVOS
+E FORAM RETIRADAS DO SITE:
+https://www.spotify.com/br/
