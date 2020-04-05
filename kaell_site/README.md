@@ -2,7 +2,7 @@ Referências:
     https://youtu.be/v0IgI8vYD_o?list=PLHCPPCVZEebqA-QYrDAjVsMCDIQe0uesU
     ------------------------------------
 
-Creditos das imagens.
+Créditos das imagens.
 
 https://bit.ly/2W4QDkJ
 Created by Pikisuperstar - Freepik.com
