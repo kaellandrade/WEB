@@ -29,5 +29,12 @@ h3{
     background-color: #819FF7 ;
 }
 
-/* Servicos
----------- */
+
+
+
+/* Footer
+--------------- */
+.bg-footer{
+    background-color: #585858;
+    color: white;
+}
