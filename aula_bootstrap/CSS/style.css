@@ -1,3 +1,7 @@
+body{
+    font: 20px Arial, sans-serif;
+}
+
 /* Início Barra de navegação
 ---------------------- */
 .navbar{
@@ -8,7 +12,9 @@
 ------------------- */
 .quemsomos{
     background-color: #D8D8D8;
+    color: rgb(68, 67, 67);
 }
 .margin{
     padding-top: 50px;
+    padding-bottom:50px;
 }
