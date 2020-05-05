@@ -1,6 +1,10 @@
 body{
     font: 20px Arial, sans-serif;
 }
+h3{
+    padding-top: 50px;
+    padding-bottom:50px;
+}
 
 /* Início Barra de navegação
 ---------------------- */
@@ -24,3 +28,6 @@ body{
 .parceiros{
     background-color: #819FF7 ;
 }
+
+/* Servicos
+---------- */
