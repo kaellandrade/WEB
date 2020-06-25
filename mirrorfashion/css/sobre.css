@@ -1,55 +1,66 @@
-body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 940px;
-    color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
 .title{
-    padding: 10px;
+    font-weight: bold;
+    font-size: 2em;
     background-image:url('../img/sobre-background.jpg');
 }
-h2{
-    margin-top: 30px;
+.sub-title{
+    font-weight: bold;
+    font-size: 1.5em;
     border-bottom: 2px solid #333333;
+
+}
+.drop-cap{
+    float: left;
+    display: block;
+    font-weight: 700;
+    font-size: 35px;
+    color: #afaeaa;
+    margin-bottom: -10px;
+}
+article p{
+    line-height:150%;
+    padding: 10px;
+    text-indent: 10px;
+}
+section{
+    margin: 10px auto 10px !important;
+    border: 1px solid red;
 }
 
-figure{
+article figure{
     padding: 15px;
     margin: 30px;
     background-color:#F2EDED;
     border: 1px solid #CCC;
     text-align: center;
 }
-figcaption{
+
+article figcaption{
     margin-top: 10px;
     font-style: italic;
 }
-p{
-    padding: 0 45px;
-    text-indent: 15px;
+
+.centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+
+}
+.familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+
 }
 
-#centro-distribuicao{
+
+
+/* #centro-distribuicao{
     margin-left: auto;
     margin-right: auto;
     width: 550px;
 }
 
-#rodape{
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
-}
-
-#rodape img{
-    margin-right:30px;
-    vertical-align: middle; /* Centraliza dois elementos no meio verticalmente*/
-    width: 94px;
-}
-
 #familia-pelho{
     float: right;
     margin: 0 0 10px 10px;
-}
+} */
