@@ -9,14 +9,7 @@
     border-bottom: 2px solid #333333;
 
 }
-.drop-cap{
-    float: left;
-    display: block;
-    font-weight: 700;
-    font-size: 35px;
-    color: #afaeaa;
-    margin-bottom: -10px;
-}
+
 article p{
     line-height:150%;
     padding: 10px;
@@ -24,7 +17,7 @@ article p{
 }
 section{
     margin: 10px auto 10px !important;
-    border: 1px solid red;
+    border: 1px solid gold;
 }
 
 article figure{
@@ -51,16 +44,3 @@ article figcaption{
     margin: 0 0 10px 10px;
 
 }
-
-
-
-/* #centro-distribuicao{
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-}
-
-#familia-pelho{
-    float: right;
-    margin: 0 0 10px 10px;
-} */

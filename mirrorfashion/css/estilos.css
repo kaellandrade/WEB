@@ -151,12 +151,15 @@ footer{
 
 footer .container{
     position: relative;
+    border: 1px solid red;
+
 }
 
 .social{
     position: absolute;
-    top: 12px;
     right: 0;
+    top: 50%;
+    transform: translateY(-50%); /* ? Pesquisa sobre*/
 }
 
 .social a{
