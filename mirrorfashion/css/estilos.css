@@ -47,6 +47,32 @@ header{
 .menu-opcoes a{
     color: #003366;
 }
+
+.menu-opcoes a:hover{
+    color: #007DC6;
+}
+
+.menu-opcoes a:active{
+    color: #867DC6;
+}
+
+.menu-departamentos li ul{
+    display: none;
+}
+
+.menu-departamentos li:hover ul{
+    display: block;
+}
+
+.menu-departamentos ul ul li{
+    background-color: #DCDCDC;
+}
+.menu-departamentos ul ul li a::before{
+    content: "\2728 "; /* content aceita simbolos unicode*/
+    padding-right: 2px;
+    opacity: 0.4;
+}
+
 .busca button{
     background-image: url("../img/busca.png");
     background-repeat: no-repeat;
@@ -96,6 +122,11 @@ header{
     width: 170px;
 }
 /* Painéis */
+.painel h2:before{
+    content: '\2756';
+    padding-right: 5px;
+    opacity: 0.4;
+}
 .painel li{
     /* border: 1px solid blue; */
     display: inline-block;
@@ -106,7 +137,8 @@ header{
     padding-bottom: 10px;
 }
 .painel{
-    /* border: 2px solid tomato; */
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
     margin: 10px 0;
     padding: 10px;
     width: 445px;
@@ -121,8 +153,9 @@ header{
 .painel h2{
     font-size: 24px;
     font-weight: bold;
-    text-transform: uppercase;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px #FFF;
 }
 
 .painel a{
@@ -143,7 +176,6 @@ header{
 
 /* inicio footer */
 footer{
-    /* position: relative; */
     background-image: url('../img/fundo-rodape.png');
     clear: both;
     padding: 20px 0;
@@ -151,7 +183,6 @@ footer{
 
 footer .container{
     position: relative;
-    border: 1px solid red;
 
 }
 

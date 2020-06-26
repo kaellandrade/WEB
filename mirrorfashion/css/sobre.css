@@ -15,12 +15,9 @@ article p{
     padding: 10px;
     text-indent: 10px;
 }
-section{
-    margin: 10px auto 10px !important;
-    border: 1px solid gold;
-}
 
-article figure{
+
+.centro-distribuicao, .familia-pelho{
     padding: 15px;
     margin: 30px;
     background-color:#F2EDED;
@@ -28,7 +25,7 @@ article figure{
     text-align: center;
 }
 
-article figcaption{
+figcaption{
     margin-top: 10px;
     font-style: italic;
 }
