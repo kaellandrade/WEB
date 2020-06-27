@@ -136,10 +136,28 @@ header{
     display: inline-block;
     width: 140px;
     vertical-align: top;
-
+    transition: 0.7s ease-out;
     margin: 2px;
     padding-bottom: 10px;
 }
+.painel li:hover{
+    box-shadow: 0px 0px 5px #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 0.7s ease-in;
+}
+
+.painel li:nth-child(2n+1):hover{ /* Gira no sentido anti-horário*/
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.painel li:nth-child(2n):hover{ /* Gira no sentido horário*/
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* .painel ol li:nth-child(2n){
+    
+} */
+
 .painel{
     border-radius: 4px;
     box-shadow: inset 1px 1px 4px #999;
