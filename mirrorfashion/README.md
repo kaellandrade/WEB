@@ -94,7 +94,7 @@ humana do projeto, definindo a quantidade, conteúdo e localização de cada inf
 
 Veja um esboço de um site, também podemos chamar de **wireframes**
 
-![Desenvolvimento%20Web%20com%20HTML%20CSS%20e%20JavaScript%20ea9d2c7d5eef419284770a42ad7c0376/wirefrime.png](Desenvolvimento%20Web%20com%20HTML%20CSS%20e%20JavaScript%20ea9d2c7d5eef419284770a42ad7c0376/wirefrime.png)
+![wirefrime.png](wirefrime.png)
 
 ## CSS RESET
 
