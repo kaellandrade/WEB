@@ -1,3 +1,6 @@
+section{
+    margin-top: 30px;
+}
 .title{
     font-weight: bold;
     font-size: 2em;
@@ -10,10 +13,20 @@
 
 }
 
+.lista-diferenciais ul{
+    margin: 0 20px 0 20px;
+    list-style-type: disc;
+}
+
+.lista-diferenciais li{
+    margin-bottom: 10px;
+}
+
 article p{
     line-height:150%;
     padding: 10px;
     text-indent: 10px;
+    text-align: justify;
 }
 
 
@@ -23,14 +36,19 @@ article p{
     background-color:#F2EDED;
     border: 1px solid #CCC;
     text-align: center;
+    border-radius: 20px;
+
 }
 
 figcaption{
     margin-top: 10px;
     font-style: italic;
+    text-shadow: 0 0 2px #2222229a;
 }
 
 .centro-distribuicao{
+    box-shadow: inset 0 0 20px #555555;
+    background-image: url("../img/sobre-background.jpg");
     margin-left: auto;
     margin-right: auto;
     width: 550px;
@@ -38,6 +56,57 @@ figcaption{
 }
 .familia-pelho{
     float: right;
-    margin: 0 0 10px 10px;
+    margin: 0 0 10px 20px;
+    box-shadow: inset 0 0 30px  #c67827;
+    background-image: url("../img/back-img-modure.png");
+}
+.familia-pelho img,
+.centro-distribuicao img{
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
 
+@media (max-width: 939px){ 
+    .centro-distribuicao{
+        width: auto;
+    }
+    .centro-distribuicao img,
+    .familia-pelho img{
+        width: 100%;
+    }
+    .familia-pelho{
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%; 
+    }
+    @media(min-width: 360px){
+        .lista-diferenciais ul{
+            list-style-type: none;
+        }
+        .lista-diferenciais li{
+            text-align: center;
+            border-radius: 10px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .lista-diferenciais li:nth-child(2n){
+            background-color: #35333231;
+        }
+        
+        .lista-diferenciais li:nth-child(2n+1){
+            background-color: #35333211;
+        }
+    }
+    @media(min-width: 720px){
+        .familia-pelho{
+            float: right;
+            margin: 0 0 10px 10px;
+            width: 50%;
+        }
+
+        
+      
+    }
 }
