@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkout Mirror Fashion</title>
+        <!-- CSS Esilos -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/d393abca71.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <button type="button" class="navbar-toggler" data-target="#navbarTogglerExternalContent" data-toggle="collapse">
+                <i class="fas fa-hamburger"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">Mirror Fashion</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerExternalContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ajuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perguntas frequentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entre em contato</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+        <!-- ! fim navbar -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Ótima escolha!</h1>
+                <p class="lead">
+                    Obrigado por comprar na Mirror Fashion!
+                    Preencha seus dados para efetivar a compra.
+                </p>
+            </div> <!--Fim container-->
+        </div> <!--Fim jumbotron-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xl-3">
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            Sua compra
+                        </div> <!--fim .card-header-->
+                        <div class="card-body">
+                            <img class="img-thumbnail mb-3 d-none d-sm-block" src="img/produtos/foto1-rosa.png" alt="Suéter">
+                            <dl>
+                                <dt>Produto</dt>
+                                <dd>Fuzzy Cardigan</dd>
+            
+                                <dt>Cor</dt>
+                                <dd>Verde</dd>
+            
+                                <dt>Tamanho</dt>
+                                <dd>40</dd>
+            
+                                <dt>Preço</dt>
+                                <dd>R$ 129,90</dd>
+                            </dl>
+                        </div> <!--Fim .card-body-->
+                </div>
+                </div> <!--Fim .card-->
+
+                <div class="col-md-8 col-xl-9">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <fieldset><!-- *Inicio Dados pessoais-->
+                                    <legend>Dados pessoais</legend> 
+                
+                                    <div class="form-group">
+                                        <label for="nome">Nome Completo</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <label class="input-group-text" for="nome">
+                                                    <i class="fas fa-user"></i>
+                                                </label>
+                                            </div>
+                                            <input required type="text" class="form-control" id="nome" name="nome">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">@</span>
+                                            </div>
+                                            <input class="form-control" type="email" name="email" id="email" placeholder="email@exemple.com">
+                
+                                        </div>
+                                    </div>
+                
+                                    <div class="form-group">
+                                        <label for="cpf">CPF</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <label class="input-group-text" for="cpf">
+                                                    <i class="far fa-id-card"></i>
+                                                </label>
+                                            </div>
+                                            <input required type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+                                        </div>
+                                    </div>
+                
+                                    <div class="form-group custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input " id="newsletter" value="sim" checked>
+                                        
+                                        <label class="custom-control-label" for="newsletter">
+                                            Quero receber promoções no meu e-mail
+                                        </label>
+                                    </div>
+                                </fieldset><!-- !Fim Dados pessoais-->
+                            </div>
+            
+                            <div class="col-lg-6">
+                                <fieldset> <!--*Inicio dados pagamento-->
+                                    <legend>Cartão de crédito</legend>
+                
+                                    <div class="form-group">
+                                        <label for="numero-cartao">Número - CVV</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <label class="input-group-text" for="numero-cartao">
+                                                    <i class="fas fa-credit-card"></i>
+                                                </label>
+                                            </div>
+                                            <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                                            
+                                        </div>
+                
+                                    </div>
+                                    <div class="form-group">
+                                        <label  for="bandeira-cartao">Bandeira</label> 
+                                        <select class="custom-select" id="bandeira-cartao">
+                                            <option disabled>Selecione uma opção...</option>
+                                            <option value="master">MasterCard</option>
+                                            <option value="visa">VISA</option> 
+                                            <option value="amex">American Express</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="validade-cartao">Validade</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <label class="input-group-text" for="validade-cartao">
+                                                    <i class="far fa-calendar-alt"></i>
+                                                </label>
+                                            </div>
+                                            <input type="month" class="form-control" name="validade-cartao" id="validade-cartao">
+                                        </div>
+                                    </div>
+                                </fieldset> <!--!Fim dados pagamentos-->
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-lg btn-outline-primary">
+                            <i class="fas fa-smile-wink"></i>
+                            Confirmar Pedido
+                        </button>
+                    </form> <!--!Fim form-->
+                </div>
+            </div> <!-- !Fim row-->
+
+        </div> <!--!Fim container-->
+        <!-- JS Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
