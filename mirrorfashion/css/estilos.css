@@ -12,6 +12,7 @@ header{
 }
 
 
+
 .sacola{
     /* border: 1px solid gold;  */
     background-image: url("../img/sacola.png"); 
@@ -244,7 +245,9 @@ footer .container{
     background-image: url("../img/googleplus.png");
 }
 
-
+.banner-destaque{
+    text-align: center;
+}
 /* fim footer */
 
 /* media quries */
@@ -275,6 +278,8 @@ footer .container{
         margin-right: 0;
         width: 100%;
     }
+
+
     .painel{
         width: auto;
     }

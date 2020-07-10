@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
-    <body>
+    <body onload="trocarImg()">
         <!-- Início cabeçalho -->
         <header class="container">
             <h1><img src="img/logo.png" alt="Logo da Mirror Fashion"></h1>
@@ -65,7 +65,11 @@
 
             <section class="banner-destaque">
                 <figure>
-                    <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+                    
+                    <img id='banner' src="img/destaque-home.png" alt="Promoção: Big City Night">
+                    <figcaption>
+                        <button  >Pausar</button> <!--! Implementar botão aqui-->
+                    </figcaption>                 
                 </figure>
             </section>
             <!-- fim .banner-destaque -->
@@ -230,5 +234,8 @@
                 </div>
         </footer>
         <!-- fim rodape -->
+
+        <!-- MeuJS -->
+        <script src="js/trocabanner.js"></script>
     </body>
 </html>
