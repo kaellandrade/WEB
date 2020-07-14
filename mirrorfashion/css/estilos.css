@@ -29,8 +29,35 @@ header{
 }
 
 .destaque{
+    position: relative;
     margin-top:10px;
 }
+.pause,
+.continuar{
+    cursor: pointer;
+    font-size: 40px;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.pause{
+    border-left: 10px solid #dd4945;
+    border-right: 10px solid #dd4945;
+    height: 30px;
+    width: 5px;
+
+}
+
+.continuar{
+    border-left: 25px solid #dd4945;
+    border-bottom: 15px solid  transparent;
+    border-top: 15px solid  transparent;
+
+    
+}
+
 
 .menu-opcoes ul{
     /* border: 1px solid blue; */
@@ -142,6 +169,14 @@ header{
     padding-bottom: 10px;
 }
 
+.painel li:nth-child(n+7){
+    display: none;
+}
+
+.painel-ativo li:nth-child(n+7){
+    display: inline-block;
+}
+
 .painel li:hover{
     box-shadow: 0px 0px 5px #333;
     background-color: rgba(255, 255, 255, 0.8);
@@ -248,6 +283,10 @@ footer .container{
 .banner-destaque{
     text-align: center;
 }
+
+.bannerImagem {
+    border:1px solid red;
+}
 /* fim footer */
 
 /* media quries */
@@ -278,7 +317,6 @@ footer .container{
         margin-right: 0;
         width: 100%;
     }
-
 
     .painel{
         width: auto;
