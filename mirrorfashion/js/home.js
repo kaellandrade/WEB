@@ -30,8 +30,6 @@ function continuar(){
 }
 // fim troca imagem destaque
 
-$('.novidades button').click(function () {
-    $('.novidades').toggleClass('painel-ativo') 
-    // ! A função toggleClass remove ou adiciona a classe dependendo se ela existe
-    // ! ou não
+$('.painel button').click(function () {
+    $(this).parent().toggleClass('painel-ativo') 
 })

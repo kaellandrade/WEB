@@ -177,6 +177,59 @@ header{
     display: inline-block;
 }
 
+.mostrar-mais{
+    /* Posicionamento */
+    position: relative;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+
+    /* Estilo */
+    background: #333;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(30, 30, 30, 0.5);
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.541);
+
+    /* animação */
+    transition: 0.3s;
+}
+
+.mostrar-mais:hover{
+    cursor: pointer;
+    background-color: #393939;
+    box-shadow: 1px 0 20px rgba(200, 200, 120, 0.9);
+}
+.mostrar-mais::after{
+    /* Elemento vazio */
+    content: '';
+    display:block;
+    height: 0;
+    width: 0;
+
+    /* triângulo */
+    border-top: 10px solid rgba(12, 12, 12, 0.9);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+
+    /* posicionamento */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+
+    /* animação */
+    transition: 0.3s;
+}
+
+.mostrar-mais:hover::after{
+    border-top: #393939;
+}
+
 .painel li:hover{
     box-shadow: 0px 0px 5px #333;
     background-color: rgba(255, 255, 255, 0.8);

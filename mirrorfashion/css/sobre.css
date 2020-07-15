@@ -21,7 +21,13 @@ section{
 .lista-diferenciais li{
     margin-bottom: 10px;
 }
-
+.frames{
+    display: flex;
+    border: 1px solid red;
+}
+frame{
+    margin: 80px;
+}
 article p{
     line-height:150%;
     padding: 10px;

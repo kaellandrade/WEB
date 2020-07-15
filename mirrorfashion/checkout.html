@@ -123,7 +123,7 @@
                                                     <i class="far fa-id-card"></i>
                                                 </label>
                                             </div>
-                                            <input required type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+                                            <input data-inputmask="'mask': '999.999.999-99'" required type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
                                         </div>
                                     </div>
                 
@@ -149,7 +149,7 @@
                                                     <i class="fas fa-credit-card"></i>
                                                 </label>
                                             </div>
-                                            <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+                                            <input data-inputmask="'mask': '99-9999999'" type="text" class="form-control" id="numero-cartao" name="numero-cartao"/>
                                             
                                         </div>
                 
@@ -192,5 +192,15 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <!-- Iput Mask -->
+        <script src="js/input-mask/dist/jquery.inputmask.js"></script>
+        <script src="js/input-mask/dist/bindings/inputmask.binding.js"></script>
+
+        <script>
+            $(document).ready(function(){ 
+                Inputmask().mask(document.querySelectorAll("input"));
+            });
+        </script>
     </body>
 </html>
