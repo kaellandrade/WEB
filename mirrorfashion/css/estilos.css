@@ -1,6 +1,7 @@
 body{
     color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'PT Sans', sans-serif;
+
 }
 header{
     /* border: 1px solid red; */
@@ -263,6 +264,7 @@ header{
     float: right;
 }
 .painel h2{
+    font-family: 'Bad Script', cursive;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
